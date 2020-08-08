@@ -13,7 +13,7 @@
         </div>
         <div class="content">
             <div class="tweet-container">
-            <a href="">
+            <a href="https://www.linkedin.com/in/abdul-jaseem-ab1560114/">
                 <img src="img/tweetThis.svg" />
             </a>            
         </div>
