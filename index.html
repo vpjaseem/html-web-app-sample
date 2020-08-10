@@ -40,7 +40,7 @@
                             <div class="step-icon">
                                 <img src="img/stackWhite.svg">
                             </div>
-                            <div class="step-text">Conenct me on <a href="https://www.linkedin.com/in/abdul-jaseem-ab1560114/">LinkedIn</a> | <a href="https://github.com/vpjaseem">GitHub</a></div>
+                            <div class="step-text">Connect me on <a href="https://www.linkedin.com/in/abdul-jaseem-ab1560114/">LinkedIn</a> | <a href="https://github.com/vpjaseem">GitHub</a></div>
                         </div>
                         <div class="step">
                             <div class="step-icon">
