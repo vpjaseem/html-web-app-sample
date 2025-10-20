@@ -132,3 +132,44 @@
                 min-width: 630px;
             }
         }
+        
+/* Scope: only the UL used for "Other AJ Labs Trainings" */
+.next-steps-body .step > ul.step-text {
+    /* spacing aligns nicely inside the .step row (icon area is 20px + 10px) */
+    margin: -10px 0px 0px 20px;
+    padding-left: 30px;           /* show bullets with a neat indent */
+    list-style: disc;
+}
+
+/* individual list items spacing */
+.next-steps-body .step > ul.step-text li {
+    margin: 6px 0;
+}
+
+/* ensure bullets are visible on dark background */
+.next-steps-body .step > ul.step-text li::marker {
+    color: #ffffff;
+}
+
+/* link styles (inherits your existing .step-text a styling, but safe to keep) */
+.next-steps-body .step > ul.step-text a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.next-steps-body .step > ul.step-text a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Optional: shrink fonts a bit on smaller screens (matches your media query spirit) */
+@media (max-width: 1024px) {
+    .next-steps-body .step > ul.step-text {
+        padding-left: 24px;
+    }
+    .next-steps-body .step > ul.step-text li {
+        margin: 4px 0;
+    }
+}
+
+        
